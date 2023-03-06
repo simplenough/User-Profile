@@ -3,3 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --gray: #a5a5a5;
+  --black: #161616;
+  --red: #840000;
+}
+
+body {
+  background-color: var(--gray);
+}
