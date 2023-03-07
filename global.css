@@ -6,6 +6,7 @@
 
 :root {
   --gray: #a5a5a5;
+  --dark-gray: #4d4d4d;
   --black: #161616;
   --red: #840000;
 }
@@ -29,4 +30,19 @@ h1 {
 
 h2 {
   font-size: 14px;
+}
+
+input {
+  width: 310px;
+  height: 40px;
+
+  margin: 0;
+
+  padding-left: 10px;
+
+  color: var(--dark-gray);
+  font-family: "Bai Jamjuree";
+  background-color: var(--gray);
+  border: 1px solid var(--black);
+  border-radius: 3px;
 }

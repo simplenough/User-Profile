@@ -38,3 +38,11 @@
 .profile-name-container {
   margin-bottom: 60px;
 }
+
+.form {
+  margin-left: 30px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
