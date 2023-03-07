@@ -32,6 +32,11 @@ h2 {
   font-size: 14px;
 }
 
+label {
+  font-size: 20px;
+  font-weight: 400;
+}
+
 input {
   width: 310px;
   height: 40px;
@@ -41,6 +46,13 @@ input {
   padding-left: 10px;
 
   color: var(--dark-gray);
+  font-family: "Bai Jamjuree";
+  background-color: var(--gray);
+  border: 1px solid var(--black);
+  border-radius: 3px;
+}
+
+button {
   font-family: "Bai Jamjuree";
   background-color: var(--gray);
   border: 1px solid var(--black);
